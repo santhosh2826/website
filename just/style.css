@@ -1,0 +1,44 @@
+.card1{
+    background-color: aqua;
+}
+.card2
+{
+    background-color: red;
+}
+.card3
+{
+    background-color: blue;
+}
+.new{
+    height: 55px;
+    
+}
+.logo
+{
+    margin-left:20px;
+    margin-top: 10px !important;
+    height: 40px;
+}
+.logo1
+{
+    margin-top: 3px !important;
+    height: 54px;
+    margin-right: -13px;
+
+    margin-left: -15px;
+}
+
+.logo2
+{
+    margin-top: 10px !important;
+    height: 39px;
+
+    margin-right: -12px;
+}
+.new2{
+    height: 550px;
+    background-color:rgb(123, 255, 0);
+    background-image: url(/desktop_banner_new.webp);
+    
+}
+
