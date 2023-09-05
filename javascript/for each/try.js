@@ -23,11 +23,22 @@
 // a.forEach(e => {console.log(e)
     
 // });
-a=[1,2,3,4,5]
-// //  n=a.map(e=>e*2)
-// // console.log(n)
-// a.forEach(e=>console.log(e))
-n=a.map(function (e){return e})
-console.log(n)
+// a=[1,2,3,4,5]
+// // //  n=a.map(e=>e*2)
+// // // console.log(n)
+// // a.forEach(e=>console.log(e))
+// n=a.(function (e){return e})
+// console.log(n)
 
-
+a=["a","b","c"]
+a.forEach((e,i,arr) => {
+    let x=0
+ for(i=0;i<a.length;i++)
+ {
+    if(e==a[i])
+    {
+        x++;
+    }
+ }
+ console.log({[e]:x})
+});
