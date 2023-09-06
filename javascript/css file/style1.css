@@ -1,0 +1,27 @@
+.card1{
+background-color: #c43121;
+height: 174px;
+
+}
+.img1
+{
+  
+    background-color: #95caba;
+    width: 160px;
+    height: 160px;
+    border-radius: 96px;
+    margin-top: 7px !important;
+    border: 6px solid white;
+    margin-left: 68px;
+}
+ul {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
