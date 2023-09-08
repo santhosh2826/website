@@ -1,0 +1,28 @@
+html{
+    background-color: #DAEDE2;
+    padding:5%;
+}
+#css-zen-garden{
+    background-color: #77C4D3;
+}
+.page-wrapper
+{
+    z-index: 2;
+}
+section{
+    display: block;
+}
+section.intro {
+    width: 66.6%;
+    padding: 5%;
+}
+h1{
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 11px;
+    background: #ea2e49;
+}
