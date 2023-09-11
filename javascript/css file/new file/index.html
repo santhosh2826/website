@@ -10,12 +10,16 @@
             width: 50%;
             height: 100px;
             display: flex;
+            padding:10px;
             justify-content:space-evenly;
+            
+            
         }
         .box{
             height: 40px;
             width: 90px;
             background: red;
+            justify-content: center;
             
         }
         .card2{
@@ -117,8 +121,49 @@
             /* justify-content: center; */
    /* justify-content: space-between; */
         }
+        .card14{
+            background: #a58787;
+            width: 70%;
+            height: 500px;
+            display: flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: center;
+          
+            /* justify-content: center; */
+   /* justify-content: space-between; */
+        }
         .box1{
             align-self: center;
+        }
+        .card15{
+            flex-flow: column-reverse wrap;
+        }
+        .card16{
+            flex-flow: column wrap;
+        }
+        .card17
+        {
+            flex-flow: column;
+        }
+        .card18
+        {
+            flex-flow: row-reverse wrap;
+        }
+        .box2{
+            order: 2;
+        }
+        .box3{
+            order: -1;
+        }
+        .card19{
+           align-items:start; 
+        }
+        .card20{
+           align-items:end; 
+        }
+        .card21{
+           align-items:center; 
         }
     </style>
 </head>
@@ -294,5 +339,94 @@
         <div class="box">12</div>
     </div>
     <hr>
+       
+    <h3>Align-items centers</h3>
+    <div class="card14">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+    </div>
+    <hr>
+    <h3> flex-flow wrap-reverse</h3>
+    <div class="card15 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> flex-flow wrap</h3>
+    <div class="card16 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> flex-flow coloum </h3>
+    <div class="card17 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> flex-flow wrap-reverse </h3>
+    <div class="card18 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> order 2 in 4 </h3>
+    <div class="card18 card1">
+        <div class="box box2">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> align-items : flex-start</h3>
+    <div class="card19 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> align-items : flex-end</h3>
+    <div class="card20 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
+    <h3> align-items :center</h3>
+    <div class="card21 card1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <hr>
+    <br>
 </body>
 </html>
